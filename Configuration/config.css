@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #1B1290;
+}
+.logo{
+    font-size: 1.6em;
+    margin-top: 5px;
+    margin-left:50px;
+}
+ul {
+  display: flex;
+  gap: 60px;
+  float: right;
+  margin-right: 80px;
+  margin-top: 10px;
+  
+}
+li{
+    list-style: none;
+    font-size: 1.2em;
+}
+.input{
+    background-color: #281ccab0;
+    outline: none;
+    color: white;
+    padding: 10px 30px;
+    width: 400px; 
+    border-radius: 50px;   
+    border: 1px solid white;
+}
+.input::placeholder{
+    color: white;
+}
+.input::after{
+    content: "PLACE";
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.lap{
+  width: 550px;
+  height: 600px;
+  margin-top: 30px;
+  position: relative;
+  top:40%;
+  left:18%;
+}
+select{
+    border: 2px solid #1B1290;
+    border-radius: 25px;
+    
+    padding: 15px 25px;
+    width: 250px;
+    
+}
+.conf{
+    float: right;
+    position: absolute;
+    left: 47%;
+    top: 15%;
+  
+}
+.conf p{
+    display: grid;
+    margin-top: 25px;
+}
+.submit{
+    padding:10px;
+    border-radius: 25px;
+    border-color: blue;
+    background-color: white;
+    margin-top: 10px;
+    width: 250px;
+}
+table{
+  border-collapse: collapse;
+  border-radius: 20px;
+  border-color: blue;
+  border-bottom: 2.5px solid blue;
+  text-align: center;
+    position: relative;
+    left: 330px;
+    top: -10px;
+    width: 290px;
+    }
+tr{ 
+    border-radius: inherit;
+    border-top: 2.5px solid blue ;
+   }
+tr td{
+    padding: 20px;
+    font-weight: 700;
+   }   
+form{
+    position:relative;
+    left:125%;
+}   
+.text{
+    color:blue;
+    font-size:15px;
+    font-weight:bold;
+    text-align: center;
+    border:none;
+    height:25px;
+    width:150px;
+}

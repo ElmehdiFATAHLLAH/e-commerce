@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    color: white;
+    background-color: #1B1290;
+}
+.N{
+    color: black;
+    font-size: 35px;
+}
+.titre{
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    margin: 30px 60px 0px 0px;
+}
+
+:root{
+    --bc: #b6b6b6;
+    --dc: none;
+    --bc1: #b6b6b6;
+    --dc1: none;
+    --bc2: #b6b6b6;
+    --dc2: none;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+form{
+    width: 530px;
+    margin-top: 15px;
+    padding-left: 50px;
+    position: absolute;
+    left: 30%;
+    top: 80px;
+    border-radius: 3px;
+    background: #ffffff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    float: right;
+    border-radius: 5px;
+    
+ 
+}
+.input{
+  
+    padding: 20px 150px;
+    border: none;
+    border-bottom: 3px #b6b6b6 solid;
+    transition: 1s ;
+}
+
+label{
+    position: relative;
+    display: inline;
+    top: 40px;
+    left: -2px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+}
+.input:focus{
+   
+    
+  
+    margin-top: 5px;
+    border: none;
+    border-bottom: 3px #b6b6b6 solid;
+    transition: 0.5s ;
+    outline: none;
+    
+}
+
+.button{
+    border: none;
+    border-bottom: 3px #b6b6b6 solid;
+    padding: 20px 30px;
+    border-radius: 50px;
+    margin-top: 5px;
+    border: 3px #b6b6b6 solid;
+    transition: 2s;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.button::before{
+    content: "";
+    padding: 60px;
+    position: absolute;
+    top: 0%;
+    left: -150%;
+    background-color: #1B1290;
+    
+    position: absolute;
+    
+    z-index: -1;
+    transition: 1s;
+}
+.button:hover::before{
+    top: -5%;
+    left: -5%;
+    
+    transition: 1s;
+    padding: 160px;
+}
+.button:hover{
+    color: white;
+    transition: 1s;
+    border: 3px white solid;
+}
+
+
+
+.img{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+.logo{
+    font-size: 1.6em;
+    margin-top: 10px;
+    margin-left:50px;
+}
+ul {
+  display: flex;
+  gap: 60px;
+  margin-right: 80px;
+  margin-top: 10px;
+  
+}
+li{
+    list-style: none;
+    font-size: 1.2em;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+  #mdp {
+   border-color:  var(--bc);
+  }
+  #c_mdp{
+    border-color:  var(--bc1);
+  }
+  #msg2{
+    display: var(--dc);
+    color: var(--bc);
+    position: absolute;
+    top: 280px;
+    right: 40px;
+    font-size: 1.6em;
+    transition: 2s;
+  }
+  #code {
+    border-color:  var(--bc2);
+   }
+  #msg3{
+    display: var(--dc1);
+    color: var(--bc1);
+    position: absolute;
+    top: 365px;
+    right: 40px;;
+    font-size: 1.6em;
+    transition: 2s;
+  }
+  #msg4{
+    display: var(--dc2);
+    color: var(--bc2);
+    position: absolute;
+    top: 451px;
+    right: 40px;
+    font-size: 1.6em;
+    transition: 2s;
+  }
+  #mdp::placeholder{
+    color: #1B1290;
+    font-size: 0.9em;
+    left: 0px;
+    
+  }
+  #btn{
+    padding: 20px;
+  }
+.container-right{
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    background-color: #1B1290;
+}
+.container-left{
+    display: block;
+    position: relative;
+    justify-content: space-between;
+}
+#image{
+    box-shadow: 3px 3px 3px 3px gray;
+    width: 80px;;
+    padding: 20px;
+    font-weight: 400;
+    padding-bottom: 0px;
+    height: 40px;
+    user-select: none;
+    text-decoration:line-through;
+    font-style: italic;
+    font-size: x-large;
+    border: grey 2px solid;
+    margin-left:10px;
+    margin-top:10px;
+}
+#champ{
+    width:auto;
+    margin-right: 10px;
+    padding: 15px;
+    border: none;
+    padding-bottom: 0px;
+    height: 40px;
+}
+#code{
+    border:none;
+    border-color: var(--bc2);
+    border-bottom:3px #b6b6b6 solid;
+    padding: 10px;
+}
+#code:focus{
+    border:none;
+    border-bottom:3px #b6b6b6 solid;
+}
+.inline{
+    display:inline-block;
+}
+#btn{
+    margin-left: 15px;
+    padding:5px;
+    font-weight:bold;
+}
+.captcha{
+    margin-top:10px;
+    padding: 15px;
+
+}
+.buttons{
+    margin-top:30px;
+    margin-bottom: 10px;
+    position: relative;
+    left:25%;     
+         }
+#c_mdp{width:168.5px;}
+::placeholder{
+    color: red;
+}

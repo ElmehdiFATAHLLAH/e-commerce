@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    overflow-x: hidden;
+    height: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #1B1290;
+}
+.logo{
+    font-size: 1.6em;
+    margin-top: 5px;
+    margin-left:50px;
+}
+ul {
+  display: flex;
+  gap: 60px;
+  margin-right: 100px;
+  margin-top: 10px;
+  
+}
+li{
+    list-style: none;
+    font-size: 1.2em;
+}
+.input{
+    background-color: #281ccab0;
+    outline: none;
+    color: white;
+    padding: 10px 30px;
+    width: 400px; 
+    border-radius: 50px;   
+    border: 1px solid white;
+}
+.input::placeholder{
+    color: white;
+}
+.input::after{
+    content: "PLACE";
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+table{
+  border-collapse: collapse;
+  text-align: center;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width:100%;
+}
+tbody{
+    height: 100px;
+    overflow-y: scroll;
+}
+thead tr{
+    
+    border-bottom: 3px solid #1B1290 ;
+    border-radius: inherit;
+    
+}
+thead tr th{
+    padding: 20px;
+}
+tbody tr{
+    border-radius: inherit;
+    border-top: 2px solid #757475 ;
+}
+tbody tr td{
+    padding: 20px;
+    font-weight: 700;
+}
+.slide{
+    width: 200px;
+    height: 100%;
+    margin-top: 2px;
+    position: fixed;
+   overflow: hidden;
+    background-color: #1B1290;
+   
+ }
+ .slide a{
+    display: block;
+    color: white;
+    font-size: 1.6em;
+    font-weight: 150;
+    padding: 35px;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+ }
+ .slide a:hover{
+    background-color: white;
+    color: #1B1290;
+ }
+.infos_commande{
+    margin-top: 30px;
+    background-color: #fff;
+    border-bottom: none !important;
+    border-radius: 10px;
+    box-shadow:0px -3px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    height:300px;
+    width:700px;
+    position:relative;
+    top:10%;
+    left:35%;
+                }                
+.infos_commande h3{
+     font-size:24px;
+     padding-top:15px;
+                    }  
+.infos_commande span{
+    font-size:18px;
+    line-height: 2;
+}                       
+form input[type="submit"]:hover {
+  background-color: #0062cc;
+}
+.info p span {
+  font-weight: bold;
+}
+
+.info button.changer_mdp {
+  background-color: #1B1290;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 6px 14px;
+  margin-top: 10px;
+}
+
+.info button.changer_mdp:hover {
+  background-color: #0056b3;
+}    
+.heade{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}

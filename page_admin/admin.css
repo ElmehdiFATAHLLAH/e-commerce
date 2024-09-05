@@ -1,0 +1,337 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    overflow-x: hidden;
+    height: 100%;
+}
+
+header{   
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #1B1290;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 999;
+}
+.logo{
+    font-size: 1.6em;
+    margin-top: 5px;
+    margin-left:50px;
+}
+ul {
+  display: flex;
+  gap: 60px;
+  margin-right: 80px;
+  margin-top: 10px;
+  
+}
+li{
+    list-style: none;
+    font-size: 1.2em;
+}
+.option ul{
+    
+    margin-left: 550px;
+    margin-right: 880px;
+    margin-top: 100px;
+    color: white; 
+    justify-content: space-between;
+}
+.option li{
+    background-color: #1B1290;
+    border-radius: 8px;
+    padding: 5px;
+    padding-bottom: 5px;
+}
+
+table tr .titre_table{
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 30px;
+    text-align: center;
+}
+.logo{
+    font-size: 1.6em;
+    margin-top: 10px;
+    margin-left:50px;
+}
+.supprimer{
+    margin-left: 440px;
+    margin-top: 50px;
+}
+.supprimer #supp{
+    border-style: none;
+    padding: 5px 10px;
+    background-color: #1B1290;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.supprimer #input{
+    border-radius: 4px;
+    font-size: 17px;
+    border-style: none;
+}
+.table_cli{
+    margin-top: -60px;
+    margin-left: 70px;
+}
+ul {
+  display: flex;
+  gap: 60px;
+  margin-right: 80px;
+  margin-top: 10px;
+  
+}
+li{
+    list-style: none;
+    font-size: 1.2em;
+}
+.input{
+    background-color: #281ccab0;
+    outline: none;
+    color: white;
+    padding: 10px 30px;
+    width: 400px; 
+    border-radius: 50px;   
+    border: 1px solid white;
+}
+.input::placeholder{
+    color: white;
+}
+.input::after{
+    content: "PLACE";
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.container-card{
+    position: relative;
+    margin-right: 190px;
+    display: flex;
+    left: 315px;
+    gap: 80px;
+    margin-top: 15px;
+    
+
+}
+.container-card .card{
+    position: relative;
+    background: white;
+    padding: 30px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100%/6);
+}
+.container-card .card .number{
+    position: relative;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #1B1290;
+}
+.container-card .card .namecard{
+    color: rgb(36, 35, 35);
+    font-size: 1.1rem;
+    margin-top: 6px;
+}
+.container-card .card .icone{
+    font-size: 3.5rem;
+    color: rgb(78, 78, 78);
+}
+.container-card .card:hover{
+    background: #1B1290;
+}
+.container-card .card:hover .icone{
+    font-size: 3.5rem;
+    color: rgb(255, 255, 255);
+}
+.container-card .card:hover .namecard{
+    color: rgb(255, 255, 255);
+    
+}
+.container-card .card:hover .number{
+    color: rgb(255, 255, 255);
+    
+}
+
+table{
+  border-collapse: collapse;
+  text-align: center;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 25px;
+    position: relative;
+    left: 366px;
+    top: 80px;
+}
+tbody{
+    height: 100px;
+    overflow-y: scroll;
+}
+thead tr{
+    
+    border-bottom: 3px solid #1B1290 ;
+    border-radius: inherit;
+    
+}
+thead tr th{
+    padding: 20px;
+}
+tbody tr{
+    border-radius: inherit;
+    border-top: 2px solid #757475 ;
+}
+tbody tr td{
+    padding: 20px;
+    font-weight: 700;
+}
+.btn{
+    border-style: none;
+    padding: 5px 10px;
+    background-color: #1B1290;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+ .slide{
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    margin-top: 2px;
+    overflow: hidden;
+    background-color: #1B1290;
+   
+ }
+
+ .slide a{
+    display: block;
+    color: white;
+    font-size: 1.6em;
+    font-weight: 150;
+    padding: 35px;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+ }
+ .slide a:hover{
+    background-color: white;
+    color: #1B1290;
+ }
+
+.ajout{
+    margin-left: 190px;
+    font-size: 28px;
+}
+.ajout input{
+    font-size: 20px;
+}
+.ajout .ajouter{
+    background-color: #1B1290;
+    color: white;
+    margin-left: -300px;
+    margin-top: 90px;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 10px;
+    border-style: none;
+}
+.ajout{
+    text-align: center;
+}
+
+
+
+.modif{
+    text-align: center;
+}
+.modif table{
+    margin-left: 230px;
+    font-size: 30px;
+}
+
+.modif input{
+    font-size: 20px;
+}
+
+.modif .modifier{
+    background-color: #1B1290;
+    color: white;
+    margin-left: -60px;
+    margin-top: 90px;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.modifier_produit{
+    margin-left: 550px;
+    margin-top: 45px;
+    margin-bottom: -25px;
+}
+
+.tableau_cli table{
+    margin-top: -75px;
+   margin-left: -75px;
+   margin-right: 50px;
+   padding-right: 20px;
+}
+
+.table_cli_scroll_op{
+    max-height: 300px;
+    overflow-y: scroll;
+    margin: 20px;
+    width: 1340px;
+}
+
+.t_cli{
+    margin-top: -75px;
+    margin-left: -100px;
+    width: 77.3%;
+}
+
+.table_cli_scroll{
+    max-height: 300px;
+    overflow-y: scroll;
+    margin: 38px;
+    margin-right: 128px;
+}
+
+.t_pro{
+    width: 1024px;
+    margin-left: -55px;
+    margin-right: 20px;
+    margin-top: -75px;
+}
+
+.table_pro_scroll{
+    max-height: 400px;
+    overflow-y: scroll;
+    width: 1392px;
+    height: 300px;
+    margin-right: 55px;
+}
+.select{
+    margin:20px;
+    width: 250px;
+    height: 30px;
+    font-weight: bold;
+}
+.option{margin-bottom: 30px;}
+.page_produit{
+    margin-top: -20px;
+}
+.heade{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
